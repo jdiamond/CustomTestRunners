@@ -1,4 +1,4 @@
-To use `GrowlTextRunner`, you need [growlnotify.exe][gn] in your path.
+To use `GrowlTestRunner`, you need [growlnotify.exe][gn] in your path.
 
 To use with [pyautotest][modipyd], launch it like this:
 
