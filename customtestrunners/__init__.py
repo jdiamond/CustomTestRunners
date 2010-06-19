@@ -17,7 +17,7 @@ class GrowlTestRunner(unittest.TextTestRunner):
         return result
 
     def _notify(self, result):
-        failed = len(result.failures) - len(result.errors)
+        failed = len(result.failures) + len(result.errors)
         passed = result.testsRun - failed
 
         values = {
